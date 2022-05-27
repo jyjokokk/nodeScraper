@@ -4,8 +4,12 @@
   "description": "Image scraper for NodeJS written in TypeScript",
   "main": "index.js",
   "scripts": {
+    "server": "http-server -p 8081 mocks/test_page",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jyjokokk <j.j.kokkola@gmail.com> (https://github.com/jyjokokk)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
 }

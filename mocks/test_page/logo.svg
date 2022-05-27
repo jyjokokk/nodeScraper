@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="302"
+   zoomAndPan="magnify"
+   viewBox="0 0 226.5 203.99608"
+   height="271.99478"
+   preserveAspectRatio="xMidYMid"
+   version="1.0"
+   id="svg110"
+   sodipodi:docname="MockLogo.svg"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview112"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.944"
+     inkscape:cx="-66.207627"
+     inkscape:cy="-28.072034"
+     inkscape:window-width="1440"
+     inkscape:window-height="847"
+     inkscape:window-x="1920"
+     inkscape:window-y="205"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg110" />
+  <defs
+     id="defs88">
+    <g
+       id="g74" />
+    <clipPath
+       id="id1">
+      <path
+         d="M 88,90 H 285 V 281 H 88 Z m 0,0"
+         clip-rule="nonzero"
+         id="path76" />
+    </clipPath>
+    <clipPath
+       id="id2">
+      <path
+         d="M 232.90234,90.808594 284.21484,226.16016 139.75,280.92969 88.433594,145.58203 Z m 0,0"
+         clip-rule="nonzero"
+         id="path79" />
+    </clipPath>
+    <clipPath
+       id="id3">
+      <path
+         d="M 312.23828,-104.83984 452.88672,266.14453 81.902344,406.79297 -58.746094,35.808594 Z m 0,0"
+         clip-rule="nonzero"
+         id="path82" />
+    </clipPath>
+    <clipPath
+       id="id4">
+      <path
+         d="M 73.414062,85.597656 H 299.91406 V 289.59766 H 73.414062 Z m 0,0"
+         clip-rule="nonzero"
+         id="path85" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath379">
+      <rect
+         style="opacity:0.8;fill:#000000;stroke-width:0.75"
+         id="rect381"
+         width="235.16949"
+         height="228.01906"
+         x="69.91526"
+         y="73.887711" />
+    </clipPath>
+  </defs>
+  <g
+     id="g371"
+     clip-path="url(#clipPath379)"
+     transform="translate(-73.414062,-85.601562)">
+    <g
+       clip-path="url(#id1)"
+       id="g96">
+      <g
+         clip-path="url(#id2)"
+         id="g94">
+        <g
+           clip-path="url(#id3)"
+           id="g92">
+          <path
+             fill="#008037"
+             d="M 282.58984,-93.597656 323.46875,-75.195312 111.83594,394.91797 70.957031,376.51172 Z m 0,0"
+             fill-opacity="1"
+             fill-rule="nonzero"
+             id="path90" />
+        </g>
+      </g>
+    </g>
+    <g
+       clip-path="url(#id4)"
+       id="g100">
+      <path
+         fill="#000000"
+         d="m 243.28906,85.601562 h -113.25 l -56.624998,101.996098 56.624998,102 h 113.25 l 56.625,-102 z M 229.95703,266.92969 H 143.36719 L 99.324219,187.59766 143.36719,108.26563 h 86.58984 L 274,187.59766 Z m 0,0"
+         fill-opacity="1"
+         fill-rule="nonzero"
+         id="path98" />
+    </g>
+    <g
+       fill="#000000"
+       fill-opacity="1"
+       id="g108">
+      <g
+         transform="translate(144.84035,256.08204)"
+         id="g106">
+        <g
+           id="g104">
+          <path
+             d="m 62.234375,-75.289062 c -9.667969,-4.582032 -19.164063,-4.582032 -20.011719,-4.582032 -8.648437,0 -16.957031,-5.085937 -16.957031,-14.921875 0,-10.851561 7.632813,-16.449221 16.957031,-16.449221 8.820313,0 16.28125,4.58203 16.621094,14.246096 0,0.507813 0.847656,1.355469 1.863281,1.355469 h 21.195313 c 1.1875,0 2.035156,-0.847656 1.867187,-1.355469 C 83.429688,-120.05859 65.457031,-135.66016 42.222656,-135.66016 20.519531,-135.66016 0,-120.22656 0,-94.792969 c 0,15.769531 7.96875,27.8125 22.042969,34.253907 9.835937,4.578124 18.992187,4.578124 20.179687,4.578124 7.632813,0.339844 16.957032,6.445313 16.957032,16.449219 0,8.988281 -7.96875,15.09375 -16.957032,15.09375 0,0 0,0 -0.167968,0 V 0 c 0.167968,0 0.167968,0 0.167968,0 21.707032,0 42.054688,-14.074219 42.054688,-39.511719 0,-15.9375 -7.800782,-29.164062 -22.042969,-35.777343 z m 0,0"
+             id="path102" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

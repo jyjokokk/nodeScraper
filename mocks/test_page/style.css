@@ -1,0 +1,26 @@
+/* Stylesheet for test_page */
+.header {
+  /* margin: 25px 25px 40px 25px; */
+  margin: 2em 1em 3em 1em;
+}
+
+.header a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header img {
+  float: left;
+  max-width: 2.5em;
+}
+
+.header h1 {
+  position: relative;
+  left: 15px;
+}
+
+.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+}

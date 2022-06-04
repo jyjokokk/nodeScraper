@@ -1,15 +1,33 @@
 {
-  "name": "tsimgscraper",
+  "name": "nodescraper",
   "version": "1.0.0",
   "description": "Image scraper for NodeJS written in TypeScript",
   "main": "index.js",
   "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
     "server": "http-server -p 8081 mocks/test_page",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts"
   },
   "author": "jyjokokk <j.j.kokkola@gmail.com> (https://github.com/jyjokokk)",
   "license": "MIT",
   "devDependencies": {
-    "http-server": "^14.1.0"
+    "@types/cheerio": "^0.22.31",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^17.0.39",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "http-server": "^14.1.0",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "dotenv": "^16.0.1"
   }
 }

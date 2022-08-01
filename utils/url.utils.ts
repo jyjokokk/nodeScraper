@@ -24,3 +24,16 @@ export const filterUrls = (urls: string[], filter: string): string[] => {
   }
   return filtered
 }
+
+export const groupByPrefix = (strings: string[]): Record<string, unknown> => {
+  const groups: Record<string, unknown> = {}
+  strings.sort()
+  // let s = strings.shift()
+  // let s = strings[0]
+  // let count = strings.length
+  // strings.map()
+  // for (let i = 0; i < strings.length; i++) {
+
+  // }
+  return groups
+}

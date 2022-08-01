@@ -1,3 +1,15 @@
+/**
+ * Entrypoint for the application
+ *
+ * Note:
+ *   - No business logic here should be written here once done, it should be
+ *   contained in modules which should only be imported and called from here.
+ *
+ * TODO:
+ *   - Clean business logic from the file
+ *   - See README for the TODO for the full application
+ */
+
 import config from './utils/config'
 import cheerio from 'cheerio'
 import Http from './utils/http'

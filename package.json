@@ -1,7 +1,7 @@
 {
   "name": "nodescraper",
-  "version": "1.0.0",
-  "description": "Image scraper for NodeJS written in TypeScript",
+  "version": "0.0.1",
+  "description": "Content scraper and mass downloader built with NodeJS",
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
@@ -20,6 +20,10 @@
     "@typescript-eslint/parser": "^5.27.0",
     "eslint": "^8.17.0",
     "eslint-config-standard": "^17.0.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
     "http-server": "^14.1.0",
     "nodemon": "^2.0.16",
     "ts-node": "^10.9.1",
@@ -28,6 +32,7 @@
   "dependencies": {
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.11",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "express": "^4.18.2"
   }
 }

@@ -15,15 +15,16 @@ Resource scraping CLI application for NodeJS, written in TypeScript.
 - [ ] Establishing sessions with websites
 - [ ] Clean business logic to separate modules from index.ts
 
-
 ## Secondary Ideas
 
 - [ ] Algorithm for grouping URLs until they point they diverge
-  + **Example:** Scraping this URL would produce something like this:
-  ```
+  - **Example:** Scraping this URL would produce something like this:
+
+  ```text
   1x https://github.com/jyjokokk/nodeScraper/tree/main/src/* found...
   3x https://github.com/jyjokokk/nodeScraper/tree/main/utils/* found...
   ```
+
 - [ ] Browser extension to control the application directly from the website
-  + The whole application might be possible to package into an extensionm, no
+  - The whole application might be possible to package into an extensionm, no
   backend needed

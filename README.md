@@ -5,8 +5,10 @@ Resource scraping CLI application for NodeJS, written in TypeScript.
 ## TODO
 
 - [ ] Plan application structure to follow Clean Architecture and scalability
+- [ ] Write tests for easier development (TDD)
+- Mocking should be easy when following depency injection / IoC
 - [ ] Resource downloading
-- [ ] Write tests for easier development
+- [ ] Axios/HTTP-util for easier response handling
 
 ## Backlog
 
@@ -26,5 +28,5 @@ Resource scraping CLI application for NodeJS, written in TypeScript.
   ```
 
 - [ ] Browser extension to control the application directly from the website
-  - The whole application might be possible to package into an extensionm, no
+  - The whole application might be possible to package into an extension, no
   backend needed

@@ -1,19 +1,22 @@
-import axios, { AxiosResponse } from 'axios'
-import fs from 'fs'
+import axios from 'axios';
+import fs from 'fs';
 
 const downloadFromUrl = async (url: string, filename: string): Promise<any> => {
   const response = await axios({
     url,
     method: 'GET',
-    responseType: 'stream'
-  })
+    responseType: 'stream',
+  });
   return new Promise((resolve, reject) => {
-    response.data.pipe(fs.createWriteStream(filename))
+    response.data
+      .pipe(fs.createWriteStream(filename))
       .on('error', reject)
-      .on('close', () => { resolve(filename) })
-  })
-}
+      .on('close', () => {
+        resolve(filename);
+      });
+  });
+};
 
 export default {
-  downloadFromUrl
-}
+  downloadFromUrl,
+};
